@@ -1,0 +1,8 @@
+.card-media{
+    background-color: rgb(106, 40, 168);
+    width: calc( 33.33% - 2 * 0.75em );
+}
+
+i{
+    margin: 16px 12px 16px 12px;
+}
