@@ -12,7 +12,7 @@ const users = [
 ]
 
 async function getRepos(user){
-    const response = await fetch(`https://api.github.com/users/${user}/repos`);
+    const response = await fetch(`https://api.github.com/users/${user}/repos?per_pages=100`);
     const data = await response.json();
     // const data = [1,2,3]
     return data
