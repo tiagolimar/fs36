@@ -38,8 +38,8 @@ async function main(){
         const {name, html_url,avatar_url} = await getUser(user);
         tbodyContent += `
         <tr>
-            <td><a href="${html_url}">
-            <img class="rounded rounded-5 shadow border" src="${avatar_url}" alt="logo digital college" style="height: 3em;">
+            <td><a href="${html_url}" target="_blank">
+            <img class="rounded rounded-5 shadow border border-primary" src="${avatar_url}" alt="logo digital college" style="height: 5em;">
         </a></td>
             <td>${name}</td>
             <td>${user}</td>
